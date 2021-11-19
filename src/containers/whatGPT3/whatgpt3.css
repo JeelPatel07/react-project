@@ -51,11 +51,10 @@
     line-height: 45px;
     font-weight: 800;
     font-family: var(--font-family);
-    max-width: 510px;
 }
 
 .gpt3__whatgpt3-heading p {
-    font-family: var(--font-family);
+    font-family: Manrope;
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
@@ -67,7 +66,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-
+    color:'#FFFFFF';
     margin-top: 2rem;
 }
 
@@ -90,6 +89,7 @@
         flex-direction: column;
         align-items: flex-start;
         margin-bottom: 0rem;
+        color:var(--color-text)
     }
 
     .gpt3__whatgpt3-heading p {
@@ -109,7 +109,7 @@
     }
 
     .gpt3__whatgpt3-heading h1 {
-        font-size: 28px;
+        font-size: 30px;
         line-height: 40px;
     }
 }
